@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Antrian extends Model
 {
     //
+    protected $table = 'antrian';
     protected $fillable = [
         'id_pengantri',
         'id_layanan',

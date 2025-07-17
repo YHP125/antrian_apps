@@ -9,6 +9,7 @@ use App\Models\User;
 class Pengantri extends Model
 {
     //
+    protected $table = 'pengantri';
     protected $fillable = [
         'nama_pengantri',
         'id_user',

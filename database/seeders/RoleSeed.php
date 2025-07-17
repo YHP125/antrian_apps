@@ -18,6 +18,7 @@ class roleSeed extends Seeder
             ['nama_role' => 'admin'],
             ['nama_role' => 'user'],
             ['nama_role' => 'guest'],
+            ['nama_role' => 'pengantri'],
         ]);
     }
 }
